@@ -5,6 +5,7 @@ keywords = ["no-std", "arm", "cortex-m", "efr32"]
 license = "MIT OR Apache-2.0"
 name = "efr32xg1"
 version = "0.1.0"
+repository = "https://gitlab.com/chrysn/efr32xg1"
 
 # as suggested by svd2rust 0.13.1 documentation:
 

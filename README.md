@@ -39,6 +39,16 @@ Beware that mixing register crates between series-and-config versions will not
 work; for example, the GPIO bit in the CMU_HFPERCLKEN0 register has moved
 between 1 and 12.
 
+### Usage
+
+This crate has nothing special about the way it is used compared to any other
+[svd2rust] crate, so see [its documentation] or [the generic chip
+documentation].
+
+[svd2rust]: https://github.com/japaric/svd2rust
+[its documentation]: https://docs.rs/svd2rust/0.13.1/svd2rust/#peripheral-api
+[the generic chip documentation]: https://studio.segger.com/packages/EFR32BG1P/CMSIS/Documents/EFR32xG1-ReferenceManual.pdf
+
 ### License
 
 All code and text checked into this repository was written by chrysn
