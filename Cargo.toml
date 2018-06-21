@@ -1,0 +1,21 @@
+[package]
+authors = ["chrysn <chrysn@fsfe.org>"]
+description = "Peripheral access API for EFR32xG1 microcontrollers"
+keywords = ["no-std", "arm", "cortex-m", "efr32"]
+license = "MIT OR Apache-2.0"
+name = "efr32xg1"
+version = "0.1.0"
+
+# as suggested by svd2rust 0.13.1 documentation:
+
+[dependencies]
+bare-metal = "0.2.0"
+cortex-m = "0.5.0"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.5.0"
+
+[features]
+rt = ["cortex-m-rt/device"]
