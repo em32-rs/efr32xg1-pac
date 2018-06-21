@@ -6,3 +6,8 @@ build.rs
 src
 lib.rs
 device.x
+
+# built by Rust
+/target
+**/*.rs.bk
+Cargo.lock
