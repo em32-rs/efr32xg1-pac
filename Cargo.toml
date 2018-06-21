@@ -6,6 +6,7 @@ license = "MIT OR Apache-2.0"
 name = "efr32xg1"
 version = "0.1.0"
 repository = "https://gitlab.com/chrysn/efr32xg1"
+readme = "README.md"
 
 # need to be stated explicitly as not even src/lib.rs is part of the checked-in
 # source code
