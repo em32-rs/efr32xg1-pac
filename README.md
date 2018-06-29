@@ -45,9 +45,15 @@ This crate has nothing special about the way it is used compared to any other
 [svd2rust] crate, so see [its documentation] or [the generic chip
 documentation].
 
+For easy use of some limited peripherals, have a look at the [efm32gg-hal]
+crate (don't let the name distract you), or the [Thunderboard BSC] that has
+examples.
+
 [svd2rust]: https://github.com/japaric/svd2rust
 [its documentation]: https://docs.rs/svd2rust/0.13.1/svd2rust/#peripheral-api
 [the generic chip documentation]: https://studio.segger.com/packages/EFR32BG1P/CMSIS/Documents/EFR32xG1-ReferenceManual.pdf
+[efm32gg-hal]: https://github.com/chrysn/efm32gg-hal
+[Thunderboard BSC]: https://github.com/chrysn/thunderboard-sltb001a
 
 ### License
 
