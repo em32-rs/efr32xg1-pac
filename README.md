@@ -55,6 +55,16 @@ examples.
 [efm32gg-hal]: https://github.com/chrysn/efm32gg-hal
 [Thunderboard BSC]: https://github.com/chrysn/thunderboard-sltb001a
 
+### Building / source control
+
+The actually authored (or, in case of the SVD file, vendor-provided) sources
+are kept in the `master` branch, where the svd2rust produced files are never
+committed.
+
+Before the crate is re-published, `master` gets merged into the
+`after-svd2rust` branch, where `make clean all` is executed and the resulting
+crate can be used locally, tested and uploaded.
+
 ### License
 
 All code and text checked into this repository, except the SVD files, was
