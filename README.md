@@ -57,13 +57,10 @@ examples.
 
 ### License
 
-All code and text checked into this repository was written by chrysn
-<chrysn@fsfe.org> and is published under the "MIT or Apache-2.0" terms
-indicated in the Cargo file.
+All code and text checked into this repository, except the SVD files, was
+written by chrysn <chrysn@fsfe.org> and is published under the "MIT or
+Apache-2.0" terms indicated in the Cargo file.
 
-The copyright status of the SVD files used (and therefore the generated crate)
-is subject to [pending clarification]; the author works under the assumption
-that the data extracted is not subject to copyright, but is aware that the
-resulting product still does not qualify for Free Software by some standards.
-
-[pending clarification]: https://www.silabs.com/community/mcu/32-bit/forum.topic.html/license_for_svd_file-HuoY
+The SVD file has its own license section, and is licensed under the terms of
+the Zlib license; in the author's understanding that file's license terms do
+not have any bearing on the license of produced Rust binaries.

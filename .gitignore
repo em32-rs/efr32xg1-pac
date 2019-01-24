@@ -1,6 +1,3 @@
-# to be provided by the user
-EFR32MG1P133F256GM48.svd
-
 # built by the makefile
 build.rs
 src
