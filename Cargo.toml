@@ -8,10 +8,6 @@ version = "0.2.0"
 repository = "https://gitlab.com/chrysn/efr32xg1"
 readme = "README.md"
 
-# need to be stated explicitly as not even src/lib.rs is part of the checked-in
-# source code
-include = ["Cargo.toml", "src/**/*"]
-
 # as suggested by svd2rust 0.14 documentation:
 
 [dependencies]
