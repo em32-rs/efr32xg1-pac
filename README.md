@@ -31,7 +31,7 @@ only do proprietary networking).
 
 Given that radio components are not shown in the SVDs and svd2rust does not
 touch memory sizes, all components but the series-and-config can be ignored for
-matters of generating svd2rust code. The EFM32MG1P133F256GM48 is used as the
+matters of generating svd2rust code. The EFR32MG1P133F256GM48 is used as the
 representative chip in the source, but the author assumes that all EFR32 chips
 with series-and-config equal to "1" can be used with this crate.
 
