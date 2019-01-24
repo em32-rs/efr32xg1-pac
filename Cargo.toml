@@ -4,7 +4,7 @@ description = "Peripheral access API for EFR32xG1 microcontrollers"
 keywords = ["no-std", "arm", "cortex-m", "efr32"]
 license = "MIT OR Apache-2.0"
 name = "efr32xg1"
-version = "0.2.0"
+version = "0.2.1"
 repository = "https://gitlab.com/chrysn/efr32xg1"
 readme = "README.md"
 
