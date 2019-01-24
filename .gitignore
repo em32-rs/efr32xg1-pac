@@ -1,9 +1,3 @@
-# built by the makefile
-build.rs
-src
-lib.rs
-device.x
-
 # built by Rust
 /target
 **/*.rs.bk
