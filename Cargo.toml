@@ -6,6 +6,7 @@ license = "MIT OR Apache-2.0"
 name = "efr32xg1"
 version = "0.2.0"
 repository = "https://gitlab.com/chrysn/efr32xg1"
+documentation = "https://docs.rs/efr32xg1"
 readme = "README.md"
 
 # as suggested by svd2rust 0.14 documentation:
