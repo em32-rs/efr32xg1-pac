@@ -2,7 +2,8 @@
 --------------------------
 
 This crate contains the svd2rust product of chip description files (SVDs)
-provided for the EFR32xG1P family of microprocessors.
+provided for the EFR32xG1 family of microprocessors (which does not include
+EFR32xG11 and EFR32xG12).
 
 ### Applicability
 
