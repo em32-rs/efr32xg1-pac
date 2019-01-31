@@ -1,3 +1,6 @@
+# built by the makefile
+*.normalized-svd
+
 # built by Rust
 /target
 **/*.rs.bk
