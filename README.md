@@ -1,5 +1,5 @@
-`efr32xg1` register crate
---------------------------
+`efr32xg1-pac` Peripheral Access Crate
+--------------------------------------
 
 This crate contains the svd2rust product of chip description files (SVDs)
 provided for the EFR32xG1 family of microprocessors (which does not include

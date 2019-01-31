@@ -4,10 +4,10 @@ description = "Peripheral access API for EFR32xG1 microcontrollers"
 keywords = ["arm", "cortex-m", "efr32", "svd2rust"]
 categories = ["embedded", "no-std"]
 license = "MIT OR Apache-2.0"
-name = "efr32xg1"
+name = "efr32xg1-pac"
 version = "0.2.0"
-repository = "https://gitlab.com/chrysn/efr32xg1"
-documentation = "https://docs.rs/efr32xg1"
+repository = "https://github.com/em32-rs/efr32xg1-pac"
+documentation = "https://docs.rs/efr32xg1-pac"
 readme = "README.md"
 
 # as suggested by svd2rust 0.14 documentation:
