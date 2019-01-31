@@ -3,6 +3,7 @@ build.rs
 src
 lib.rs
 device.x
+*.normalized-svd
 
 # built by Rust
 /target
