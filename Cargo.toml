@@ -1,7 +1,8 @@
 [package]
 authors = ["chrysn <chrysn@fsfe.org>"]
 description = "Peripheral access API for EFR32xG1 microcontrollers"
-keywords = ["no-std", "arm", "cortex-m", "efr32"]
+keywords = ["arm", "cortex-m", "efr32", "svd2rust"]
+categories = ["embedded", "no-std"]
 license = "MIT OR Apache-2.0"
 name = "efr32xg1"
 version = "0.2.0"
